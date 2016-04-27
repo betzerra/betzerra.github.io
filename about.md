@@ -4,7 +4,12 @@ title: About me
 permalink: /about/
 ---
 
-\#TODO: bio
+```
+- [ ] Write a bio.
+- [ ] Add featured apps / repos below.
+- [ ] ???
+- [ ] Profit
+```
 
 Currently working at Pager.
 
