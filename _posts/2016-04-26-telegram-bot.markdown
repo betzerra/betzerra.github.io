@@ -4,7 +4,9 @@ title:  "My everyday news on a Telegram bot 🤖"
 date:   2016-04-26 23:39:50 -0300
 categories: jekyll update
 ---
-![Botzerra_bot working]({{site.url}}/assets/telegram_bot.png)
+{:refdef: style="text-align: center;"}
+![botzerra_bot working]({{site.url}}/assets/telegram_bot.png){:width="300px"}
+{:refdef}
 
 I liked [Telegram](https://telegram.org) since day 1 but after they released
 their **bot API**, it became my favorite messaging app by far [^1].
