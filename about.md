@@ -4,15 +4,16 @@ title: About me
 permalink: /about/
 ---
 
-```
-- [ ] Write a bio.
-- [ ] Add featured apps / repos below.
-- [ ] ???
-- [ ] Profit
-```
+{:refdef: style="text-align: center;"}
+![botzerra_bot working]({{site.url}}/assets/avatar.png){:width="300px"}
+{:refdef}
 
-Currently working at Pager.
+I'm a __iOS software engineer__ living in __Buenos Aires__.
 
-**Created:**
+I currently work at [Pager](http://www.pager.com). Before, I've been working at [theLift](http://thelift.net), [TinyCo](http://www.tinyco.com) and other small companies.
+
+When I'm not coding at work, I'm working on a [personal project](http://www.github.com/betzerra), [playing videogames](https://www.instagram.com/p/BE1UOmBSlM0/?taken-by=betzerra) or eating asado.
+
+__Published apps__
 
 - [PicAnalyzer for iOS](http://www.picanalyzer.com)
