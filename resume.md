@@ -39,6 +39,10 @@ BSc in Computer Science at Universidad CAECE (Buenos Aires, Argentina)
   I performed demos of several IBM Rational products and wrote some articles for CodeJava.org about them.
   
 # Personal Projects
+- __Oct 2013 - [PicAnalyzer](http://www.picanalyzer.com)__
+
+  An iOS app that extracts the color palette from a picture. Available at the [App Store](https://itunes.apple.com/ar/app/picanalyzer/id721067923?l=en&mt=8).
+
 - __Jan 2013 - [MosaicUI](https://github.com/betzerra/MosaicUI)__
   
   An open source tiled UI component for iOS that automatic layouts according to the elements' sizes. Popular on GitHub (more than 600 stars and 115 forks)
@@ -55,9 +59,11 @@ BSc in Computer Science at Universidad CAECE (Buenos Aires, Argentina)
   
   //⚠️ This app is no longer on the App Store.
   
-- __Sep 2010 - [PictoCard TM](http://www.picanalyzer.com)__
+- __Sep 2010 - PictoCard__
 
-  An iOS application that people can use as a board game. Available at the [App Store](https://itunes.apple.com/ar/app/picanalyzer/id721067923?l=en&mt=8).
+  An iOS application that people can use as a board game.
+
+  //⚠️ This app is no longer on the App Store.
 
 - __Sep 2009 - Processing Visuals__
 
