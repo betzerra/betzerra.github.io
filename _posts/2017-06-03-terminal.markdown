@@ -21,6 +21,7 @@ Here's what you need to know to setup yours:
 - [Install iTerm2](http://iterm2.com)
 - [Install oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
 - [Install bullet-train theme](https://github.com/caiogondim/bullet-train.zsh)
+- On __iTerm2 preferences__, under Profile -> Terminal, disable _"Show mark indicators"_.
 - Use a custom palette, [here's mine]({{site.url}}/assets/betzerra.itermcolors).
 - Get a font, mine is [13pt Droid Sans Mono Dotted for Powerline](https://github.com/powerline/fonts/blob/master/DroidSansMonoDotted).
 - Customize oh-my-zsh theme by tweaking `~/.zshrc`. Here are some lines you might find relevant:
