@@ -1,0 +1,40 @@
+---
+layout: post
+title:  "Customizing macOS' terminal"
+date:   2017-06-03 01:00:00 -0300
+categories: jekyll update
+---
+
+Anything is better than macOS' default terminal. The white background and the way-too-small font are not a good fit for anyone. But hey! at least it's Windows' terminal, am I right?
+
+Mine looks like this.
+
+![terminal screenshot]({{site.url}}/assets/terminal_screenshot.png)
+
+It's pretty basic but it's got what I need: 
+- it's easy to read 
+- it tells me in which git branch I am
+- it has got emojis 😎
+
+Here's what you need to know to setup yours:
+
+- [Install iTerm2](http://iterm2.com)
+- [Install oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
+- [Install bullet-train theme](https://github.com/caiogondim/bullet-train.zsh)
+- Use a custom palette, [here's mine]({{site.url}}/assets/betzerra.itermcolors).
+- Get a font, mine is [13pt Droid Sans Mono Dotted for Powerline](https://github.com/powerline/fonts/blob/master/DroidSansMonoDotted).
+- Customize oh-my-zsh theme by tweaking `~/.zshrc`. Here are some lines you might find relevant:
+
+```
+ZSH_THEME="bullet-train"
+
+BULLETTRAIN_PROMPT_ORDER=(
+  dir
+  git
+)
+
+BULLETTRAIN_DIR_EXTENDED="0"
+BULLETTRAIN_GIT_CLEAN=" 👌🏽 "
+BULLETTRAIN_GIT_DIRTY=" 💩 "
+BULLETTRAIN_GIT_UNTRACKED="%F{red} ★ %F{black}"
+```
