@@ -39,6 +39,10 @@ BSc in Computer Science at Universidad CAECE (Buenos Aires, Argentina)
   I performed demos of several IBM Rational products and wrote some articles for CodeJava.org about them.
   
 # Personal Projects
+- __Jul 2016 - [Canillitapp](https://github.com/Canillitapp)__
+
+  An open source iOS app that fetches news from Argentina's most important newspapers.
+
 - __Oct 2013 - [PicAnalyzer](http://www.picanalyzer.com)__
 
   An iOS app that extracts the color palette from a picture. Available at the [App Store](https://itunes.apple.com/ar/app/picanalyzer/id721067923?l=en&mt=8).

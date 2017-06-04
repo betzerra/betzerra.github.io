@@ -14,6 +14,9 @@ I currently work at [__Pager__](http://www.pager.com). Before, I've been working
 
 When I'm not coding at work, I'm working on a [personal project](http://www.github.com/betzerra), [playing videogames](https://www.instagram.com/p/BE1UOmBSlM0/?taken-by=betzerra) or eating asado.
 
+__Work in progress apps__
+- [Canillitapp for iOS](https://github.com/canillitapp/)
+
 __Published apps__
 
 - [PicAnalyzer for iOS](http://www.picanalyzer.com)
