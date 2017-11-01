@@ -24,7 +24,7 @@ Here are some examples:
 
 **latest_news.sh**
 
-- Shows last 20 news
+- Shows last 20 news.
 - Transforms UNIX timestamp into a legible date.
 
 {% gist betzerra/74f97e4b8693f725aed56b5f60d04038 latest_news.sh %}
@@ -34,3 +34,16 @@ Here are some examples:
 {:refdef: style="text-align: center;"}
 ![terminal screenshot]({{site.url}}/assets/canillitapp_terminal_002.png){:width="700px"}
 {:refdef}
+
+**trending_news.sh**
+
+- Shows trending topics for today.
+- Transforms UNIX timestamp into a legible date.
+
+{% gist betzerra/74f97e4b8693f725aed56b5f60d04038 trending_news.sh %}
+{:refdef: style="text-align: center;"}
+![terminal screenshot]({{site.url}}/assets/canillitapp_terminal_003.png){:width="700px"}
+{:refdef}
+
+**finally, alias the scripts in order to make your life easier**
+{% gist betzerra/74f97e4b8693f725aed56b5f60d04038 .zshrc %}
