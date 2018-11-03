@@ -40,7 +40,7 @@ Still confused? Here are some examples:
 On top of that, I'll add that apart from preventing humans to do those chores, it removes the friction of being the bad cop that asks developers to remove that extra whitespace ;-)
 
 # Dangerfile
-All these rules are written in a file called `Dangerfile`, here's an example:
+So, once you have an idea of what are the rules you want to implement, you just write these on a file called `Dangerfile`, here's an example (Ruby developers will find this quite easy):
 
 ```ruby
 # check if my code complies with project's code style.
@@ -81,6 +81,8 @@ end
 message("Thanks @#{github.pr_author}! :tada:") if github.pr_author != "betzerra"
 ```
 
+Check Danger's website for more examples.
+
 # Setup Dangerfile
 - Add Danger and its plugins (if needed) on your Gemfile. [See an example](https://github.com/Canillitapp/headlines-iOS/blob/master/Gemfile)
 - Setup an account on Github / Gitlab / Bitbucket for the bot. This is probably the most annoying part. Follow [these instructions](https://danger.systems/guides/getting_started.html).
@@ -88,7 +90,8 @@ message("Thanks @#{github.pr_author}! :tada:") if github.pr_author != "betzerra"
 - ???
 - Profit
 
-That's all for now. Let me know your doubts / opinions!
+By now, you should have your own Danger bot working on your repos. Kudos! 
+Let me know your doubts / opinions via twitter @betzerra or by email!
 
 [^1]: I'll talk about Fastlane on the next post. 
 [^2]: There's a javascript version for Danger, but [javascript sucks](https://www.destroyallsoftware.com/talks/wat).
