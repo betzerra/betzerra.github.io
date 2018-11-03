@@ -37,6 +37,8 @@ Still confused? Here are some examples:
 - if some core files are modified, maybe it's a good idea to notify top contributors
 - if it’s an Open Source project, thank other contributors.
 
+On top of that, I'll add that apart from preventing humans to do those chores, it removes the friction of being the bad cop that asks developers to remove that extra whitespace ;-)
+
 # Dangerfile
 All these rules are written in a file called `Dangerfile`, here's an example:
 
