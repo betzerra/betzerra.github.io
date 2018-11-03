@@ -18,5 +18,5 @@ github_username:  betzerra
 # Build settings
 markdown: kramdown
 
-gems:
+plugins:
   - jekyll-gist
