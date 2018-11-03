@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Automating chores with Danger"
-date:   2017-11-03 19:06:00 -0300
+date:   2018-11-03 19:06:00 -0300
 categories: jekyll update
 ---
 
