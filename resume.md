@@ -12,7 +12,9 @@ BSc in Computer Science at Universidad CAECE (Buenos Aires, Argentina)
 - English: Fluent
 
 # Work Experience
-- __Oct 2013 - Present: [Pager](http://www.pager.com) Lead iOS Developer / Founding Team Member__
+- __Dec 2018 - Present: [Citrusbyte](http://www.citrusbyte.com) iOS Developer__
+
+- __Oct 2013 - Dec 2018: [Pager](http://www.pager.com) Lead iOS Developer / Founding Team Member__
 
   Working on the iOS client, currently published on the [App Store](https://itunes.apple.com/us/app/pager-personalized-healthcare/id864058356?mt=8).
 
