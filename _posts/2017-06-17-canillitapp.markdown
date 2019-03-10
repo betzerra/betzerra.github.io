@@ -2,7 +2,7 @@
 layout: post
 title:  "Why I moved my news service from bot to app 📱"
 date:   2017-06-17 09:00:00 -0300
-categories: jekyll update
+categories: en canillitapp telegram bot
 ---
 
 It's been more than a year since I talked about [botzerra, my news bot]({{site.url}}/jekyll/update/2016/04/26/telegram-bot.html).
