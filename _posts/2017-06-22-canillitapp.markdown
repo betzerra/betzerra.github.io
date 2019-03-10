@@ -2,7 +2,7 @@
 layout: post
 title:  "Querying Canillitapp with a little of shell scripting"
 date:   2017-06-22 10:00:00 -0300
-categories: jekyll update
+categories: en canillitapp terminal
 ---
 
 I recently discovered [JQ](https://github.com/stedolan/jq) and it worked perfect for me to query [Canillitapp services](https://github.com/Canillitapp/headlines-api).

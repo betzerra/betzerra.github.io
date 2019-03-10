@@ -2,7 +2,7 @@
 layout: post
 title:  "Automating chores with Danger"
 date:   2018-11-03 19:06:00 -0300
-categories: jekyll update
+categories: en canillitapp automation danger
 ---
 
 It's been a while I've been thinking about writing about [Fastlane](https://fastlane.tools) and [Danger](https://danger.systems). 
