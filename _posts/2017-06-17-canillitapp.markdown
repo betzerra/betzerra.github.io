@@ -2,7 +2,7 @@
 layout: post
 title:  "Why I moved my news service from bot to app 📱"
 date:   2017-06-17 09:00:00 -0300
-categories: en canillitapp telegram bot
+categories: en
 ---
 
 It's been more than a year since I talked about [botzerra, my news bot]({{site.url}}/jekyll/update/2016/04/26/telegram-bot.html).
@@ -34,4 +34,3 @@ After that, I created an [Apple Watch client](https://twitter.com/betzerra/statu
 {:refdef}
 
 My conclussion is that there's no better platform than other. As many things in life, there's always a trade off. If possible, try to think your app as a service and how could you adapt it on different use cases such as mobile apps, widgets, smartwatch apps, tv apps, bots, webapps and so on.
-

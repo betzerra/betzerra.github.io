@@ -2,7 +2,7 @@
 layout: post
 title:  "\"Marque uno para español\""
 date:   2019-03-10 15:20:00 -0300
-categories: es jekyll
+categories: es
 ---
 
 Hace rato que quería escribir algunos posts en castellano.

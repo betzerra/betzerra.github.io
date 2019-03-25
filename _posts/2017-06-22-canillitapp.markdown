@@ -2,7 +2,7 @@
 layout: post
 title:  "Querying Canillitapp with a little of shell scripting"
 date:   2017-06-22 10:00:00 -0300
-categories: en canillitapp terminal
+categories: en
 ---
 
 I recently discovered [JQ](https://github.com/stedolan/jq) and it worked perfect for me to query [Canillitapp services](https://github.com/Canillitapp/headlines-api).
@@ -11,7 +11,7 @@ Here are some examples:
 
 **search.sh**
 
-- Makes a search (URL escaped) and shows last 20 examples. 
+- Makes a search (URL escaped) and shows last 20 examples.
 - Transforms UNIX timestamp into a legible date.
 
 {% gist betzerra/74f97e4b8693f725aed56b5f60d04038 search.sh %}

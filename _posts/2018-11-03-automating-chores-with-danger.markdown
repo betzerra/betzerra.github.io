@@ -2,10 +2,10 @@
 layout: post
 title:  "Automating chores with Danger"
 date:   2018-11-03 19:06:00 -0300
-categories: en canillitapp automation danger
+categories: en
 ---
 
-It's been a while I've been thinking about writing about [Fastlane](https://fastlane.tools) and [Danger](https://danger.systems). 
+It's been a while I've been thinking about writing about [Fastlane](https://fastlane.tools) and [Danger](https://danger.systems).
 
 Basically, because **I hate manual processes**. I do. They are boring, require lots of time and they're prone to human errors. The more boring the task is, the more likely to fuck it up I am.
 
@@ -56,9 +56,9 @@ end
 # if it’s a release branch, remind me to tag this commit after it’s approved.
 if github.branch_for_head.include? 'release'
   message_text = """
-  This looks like a release PR. 
-  Don't forget to: 
-  - Tag the version. 
+  This looks like a release PR.
+  Don't forget to:
+  - Tag the version.
   - Write the changelog.
   - Build a version and deploy to QA.
   """
@@ -90,9 +90,9 @@ Check Danger's website for more examples.
 - ???
 - Profit
 
-By now, you should have your own Danger bot working on your repos. Kudos! 
+By now, you should have your own Danger bot working on your repos. Kudos!
 Let me know your doubts / opinions via twitter @betzerra or by email!
 
-[^1]: I'll talk about Fastlane on the next post. 
+[^1]: I'll talk about Fastlane on the next post.
 [^2]: There's a javascript version for Danger, but [javascript sucks](https://www.destroyallsoftware.com/talks/wat).
 [^3]: I heard [rbenv](https://github.com/rbenv/rbenv) is great too but I use RVM so... 🤷

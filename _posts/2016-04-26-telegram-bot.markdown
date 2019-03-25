@@ -2,7 +2,7 @@
 layout: post
 title:  "My everyday news on a Telegram bot 🤖"
 date:   2016-04-26 23:39:50 -0300
-categories: en telegram bot canillitapp
+categories: en
 ---
 {:refdef: style="text-align: center;"}
 ![botzerra_bot working]({{site.url}}/assets/telegram_bot.png){:width="300px"}
