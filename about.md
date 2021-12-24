@@ -8,14 +8,15 @@ permalink: /about/
 ![botzerra_bot working]({{site.url}}/assets/avatar.png){:width="300px"}
 {:refdef}
 
-I'm _Ezequiel Becerra_, an __iOS software engineer__ living in __Buenos Aires__.
+I'm _Ezequiel Becerra_, an __iOS Software Engineer__ living in __Buenos Aires__.
 
-I currently work at [__Citrusbyte__](https://citrusbyte.com). Before, I've been working at [__Pager__](http://www.pager.com), [__theLift__](http://thelift.net), [__TinyCo__](http://www.tinyco.com) and other small companies.
+I currently work at [__Theorem__](https://theorem.co). Previously [__Pager__](http://www.pager.com), [__theLift__](http://thelift.net), [__TinyCo__](http://www.tinyco.com) and other small companies.
 
 When I'm not coding at work, I'm working on a [personal project](http://www.github.com/betzerra), [playing videogames](https://www.instagram.com/p/BE1UOmBSlM0/?taken-by=betzerra) or eating asado.
 
 __Open source featured projects__
 - [Canillitapp](https://github.com/canillitapp/)
+- [Morty](https://github.com/betzerra/morty)
 
 __Published apps__
 
