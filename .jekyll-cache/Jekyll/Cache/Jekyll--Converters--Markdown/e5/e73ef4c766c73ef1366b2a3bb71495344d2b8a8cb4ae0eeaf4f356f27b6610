@@ -1,0 +1,57 @@
+I"<p>I recently discovered <a href="https://github.com/stedolan/jq">JQ</a> and it worked perfect for me to query <a href="https://github.com/Canillitapp/headlines-api">Canillitapp services</a>.</p>
+
+<p>Here are some examples:</p>
+
+<p><strong>search.sh</strong></p>
+
+<ul>
+  <li>Makes a search (URL escaped) and shows last 20 examples.</li>
+  <li>Transforms UNIX timestamp into a legible date.</li>
+</ul>
+
+<noscript><pre>404: Not Found</pre></noscript>
+<script src="https://gist.github.com/betzerra/74f97e4b8693f725aed56b5f60d04038.js?file=search.sh"> </script>
+
+<p><code class="language-plaintext highlighter-rouge">sh search.sh calu%20rivero</code></p>
+
+<p style="text-align: center;"><img src="http://betzerra.github.io/assets/canillitapp_terminal_001.png" alt="terminal screenshot" width="700px" /></p>
+
+<p><strong>latest_news.sh</strong></p>
+
+<ul>
+  <li>Shows last 20 news.</li>
+  <li>Transforms UNIX timestamp into a legible date.</li>
+</ul>
+
+<noscript><pre>DATE=`date +%Y-%m-%d`
+curl https://api.canillitapp.com/latest/$DATE | jq &#39;.[0:20] | .[] | {title: .title, source: .source_name, url: .url, date : .date | strftime(&quot;%B %d %Y %I:%M%p %Z&quot;)}&#39;</pre></noscript>
+<script src="https://gist.github.com/betzerra/74f97e4b8693f725aed56b5f60d04038.js?file=latest_news.sh"> </script>
+
+<p><code class="language-plaintext highlighter-rouge">sh latest_news.sh</code></p>
+
+<p style="text-align: center;"><img src="http://betzerra.github.io/assets/canillitapp_terminal_002.png" alt="terminal screenshot" width="700px" /></p>
+
+<p><strong>trending_news.sh</strong></p>
+
+<ul>
+  <li>Shows trending topics for today.</li>
+  <li>Transforms UNIX timestamp into a legible date.</li>
+</ul>
+
+<noscript><pre>DATE=`date +%Y-%m-%d`
+curl https://api.canillitapp.com/trending/$DATE/7 | jq &#39;.news | to_entries[] | {&quot;key&quot;: .key, &quot;title&quot;: .value | .[0].title, &quot;url&quot;: .value | .[0].url}&#39;</pre></noscript>
+<script src="https://gist.github.com/betzerra/74f97e4b8693f725aed56b5f60d04038.js?file=trending_news.sh"> </script>
+
+<p style="text-align: center;"><img src="http://betzerra.github.io/assets/canillitapp_terminal_003.png" alt="terminal screenshot" width="700px" /></p>
+
+<p><strong>finally, alias the scripts in order to make your life easier</strong></p>
+<noscript><pre># optional, I added some of my scripts at the bottom of my ~/.zshrc
+# (I&#39;m using oh-my-zsh https://github.com/robbyrussell/oh-my-zsh)
+
+alias canillitapp_latest=&quot;~/Scripts/latest_news.sh&quot;
+alias canillitapp_popular=&quot;~/Scripts/popular_news.sh&quot;
+alias canillitapp_search=&quot;~/Scripts/search_news.sh&quot;
+alias canillitapp_trending=&quot;~/Scripts/trending_news.sh&quot;</pre></noscript>
+<script src="https://gist.github.com/betzerra/74f97e4b8693f725aed56b5f60d04038.js?file=.zshrc"> </script>
+
+:ET

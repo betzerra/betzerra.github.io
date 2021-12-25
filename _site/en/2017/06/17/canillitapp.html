@@ -6,12 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>hello_there</title>
-  <meta name="description" content="iOS Software Engineer living in Buenos Aires 🇦🇷.
-">
+  <title>Why I moved my news service from bot to app 📱</title>
+  <meta name="description" content="It’s been more than a year since I talked about botzerra, my news bot.Back then, there was a lot of hype around bots. It was justfied, bots are awesome for s...">
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://betzerra.github.io/about/">
+  <link rel="canonical" href="http://betzerra.github.io/en/2017/06/17/canillitapp.html">
   <link rel="alternate" type="application/rss+xml" title="Betzerra" href="http://betzerra.github.io/feed.xml">
 </head>
 
@@ -63,33 +62,47 @@
 
     <div class="page-content">
       <div class="wrapper">
-        <article class="post">
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title">hello_there</h1>
+    <h1 class="post-title" itemprop="name headline">Why I moved my news service from bot to app 📱</h1>
+    <p class="post-meta"><time datetime="2017-06-17T09:00:00-03:00" itemprop="datePublished">Jun 17, 2017</time></p>
   </header>
 
-  <div class="post-content">
-    <p style="text-align: center;"><img src="http://betzerra.github.io/assets/avatar.png" alt="botzerra_bot working" width="300px" /></p>
+  <div class="post-content" itemprop="articleBody">
+    <p>It’s been more than a year since I talked about <a href="http://betzerra.github.io/jekyll/update/2016/04/26/telegram-bot.html">botzerra, my news bot</a>.
+Back then, there was a lot of hype around bots. It was justfied, bots are awesome for several reasons: mostly because users don’t need to download a new app (they don’t need to login or sign up either). So I guess it’s ok to say there’s less friction on bots than in apps, right?</p>
 
-<p>I’m <em>Ezequiel Becerra</em>, an <strong>iOS Software Engineer</strong> living in <strong>Buenos Aires</strong>.</p>
+<p>Well, not quite. For some users, the idea of <em>an app inside your messaging app</em> was quite hard to grasp.
+Also, after the novelty wore off I realized that having an app would be more attactive.</p>
 
-<p>I currently work at <a href="https://theorem.co"><strong>Theorem</strong></a>. Previously <a href="http://www.pager.com"><strong>Pager</strong></a>, <a href="http://thelift.net"><strong>theLift</strong></a>, <a href="http://www.tinyco.com"><strong>TinyCo</strong></a> and other small companies.</p>
+<p>To start with, bot’s flow is way slower:</p>
+<ol>
+  <li>Open Telegram.</li>
+  <li>Look for News bot.</li>
+  <li>Write <code class="language-plaintext highlighter-rouge">/latest_news</code>.</li>
+  <li>Send.</li>
+</ol>
 
-<p>When I’m not coding at work, I’m working on a <a href="http://www.github.com/betzerra">personal project</a>, <a href="https://www.instagram.com/p/BE1UOmBSlM0/?taken-by=betzerra">playing videogames</a> or eating asado.</p>
+<p>Let’s check same flow on an app:</p>
+<ol>
+  <li>Open app.</li>
+</ol>
 
-<p><strong>Open source featured projects</strong></p>
+<p>Boom.</p>
+
+<p>In addition, apps can potencially look much better than bots.</p>
 <ul>
-  <li><a href="https://github.com/canillitapp/">Canillitapp</a></li>
-  <li><a href="https://github.com/betzerra/morty">Morty</a></li>
+  <li>Bots focus on simple actions and content is key.</li>
+  <li>Apps are more complex and focus on richer experiences.</li>
 </ul>
 
-<p><strong>Published apps</strong></p>
+<p>So I extracted the code from the bot and I made a <a href="https://github.com/Canillitapp/headlines-api">news API</a>.
+After that, I created an <a href="https://twitter.com/betzerra/status/768816272192733184">Apple Watch client</a>, and many months later it became a whole <a href="https://itunes.apple.com/us/app/canillitapp/id1148447560?ls=1&amp;mt=8">iOS app</a>.</p>
 
-<ul>
-  <li><a href="http://www.picanalyzer.com">PicAnalyzer for iOS</a></li>
-  <li><a href="https://itunes.apple.com/us/app/canillitapp/id1148447560?ls=1&amp;mt=8">Canillitapp for iOS</a></li>
-</ul>
+<p style="text-align: center;"><img src="http://betzerra.github.io/assets/canillitapp_screenshot.png" alt="terminal screenshot" width="300px" /></p>
+
+<p>My conclussion is that there’s no better platform than other. As many things in life, there’s always a trade off. If possible, try to think your app as a service and how could you adapt it on different use cases such as mobile apps, widgets, smartwatch apps, tv apps, bots, webapps and so on.</p>
 
   </div>
 
