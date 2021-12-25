@@ -6,12 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>hello_there</title>
-  <meta name="description" content="iOS Software Engineer living in Buenos Aires 🇦🇷.
-">
+  <title>Customizing macOS&#39; terminal</title>
+  <meta name="description" content="Anything is better than macOS’ default terminal. The white background and the way-too-small font are not a good fit for anyone. But hey! at least it’s Window...">
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://betzerra.github.io/about/">
+  <link rel="canonical" href="http://betzerra.github.io/en/2017/06/03/terminal.html">
   <link rel="alternate" type="application/rss+xml" title="Betzerra" href="http://betzerra.github.io/feed.xml">
 </head>
 
@@ -63,33 +62,51 @@
 
     <div class="page-content">
       <div class="wrapper">
-        <article class="post">
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title">hello_there</h1>
+    <h1 class="post-title" itemprop="name headline">Customizing macOS' terminal</h1>
+    <p class="post-meta"><time datetime="2017-06-03T01:00:00-03:00" itemprop="datePublished">Jun 3, 2017</time></p>
   </header>
 
-  <div class="post-content">
-    <p style="text-align: center;"><img src="http://betzerra.github.io/assets/avatar.png" alt="botzerra_bot working" width="300px" /></p>
+  <div class="post-content" itemprop="articleBody">
+    <p>Anything is better than macOS’ default terminal. The white background and the way-too-small font are not a good fit for anyone. But hey! at least it’s Windows’ terminal, am I right?</p>
 
-<p>I’m <em>Ezequiel Becerra</em>, an <strong>iOS Software Engineer</strong> living in <strong>Buenos Aires</strong>.</p>
+<p>Mine looks like this.</p>
 
-<p>I currently work at <a href="https://theorem.co"><strong>Theorem</strong></a>. Previously <a href="http://www.pager.com"><strong>Pager</strong></a>, <a href="http://thelift.net"><strong>theLift</strong></a>, <a href="http://www.tinyco.com"><strong>TinyCo</strong></a> and other small companies.</p>
+<p><img src="http://betzerra.github.io/assets/terminal_screenshot.png" alt="terminal screenshot" /></p>
 
-<p>When I’m not coding at work, I’m working on a <a href="http://www.github.com/betzerra">personal project</a>, <a href="https://www.instagram.com/p/BE1UOmBSlM0/?taken-by=betzerra">playing videogames</a> or eating asado.</p>
-
-<p><strong>Open source featured projects</strong></p>
+<p>It’s pretty basic but it’s got what I need:</p>
 <ul>
-  <li><a href="https://github.com/canillitapp/">Canillitapp</a></li>
-  <li><a href="https://github.com/betzerra/morty">Morty</a></li>
+  <li>it’s easy to read</li>
+  <li>it tells me in which git branch I am</li>
+  <li>it has got emojis 😎</li>
 </ul>
 
-<p><strong>Published apps</strong></p>
+<p>Here’s what you need to know to setup yours:</p>
 
 <ul>
-  <li><a href="http://www.picanalyzer.com">PicAnalyzer for iOS</a></li>
-  <li><a href="https://itunes.apple.com/us/app/canillitapp/id1148447560?ls=1&amp;mt=8">Canillitapp for iOS</a></li>
+  <li><a href="http://iterm2.com">Install iTerm2</a></li>
+  <li><a href="https://github.com/robbyrussell/oh-my-zsh">Install oh-my-zsh</a></li>
+  <li><a href="https://github.com/caiogondim/bullet-train.zsh">Install bullet-train theme</a></li>
+  <li>On <strong>iTerm2 preferences</strong>, under Profile -&gt; Terminal, disable <em>“Show mark indicators”</em>.</li>
+  <li>Use a custom palette, <a href="http://betzerra.github.io/assets/betzerra.itermcolors">here’s mine</a>.</li>
+  <li>Get a font, mine is <a href="https://github.com/powerline/fonts/blob/master/DroidSansMonoDotted">13pt Droid Sans Mono Dotted for Powerline</a>.</li>
+  <li>Customize oh-my-zsh theme by tweaking <code class="language-plaintext highlighter-rouge">~/.zshrc</code>. Here are some lines you might find relevant:</li>
 </ul>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>ZSH_THEME="bullet-train"
+
+BULLETTRAIN_PROMPT_ORDER=(
+  dir
+  git
+)
+
+BULLETTRAIN_DIR_EXTENDED="0"
+BULLETTRAIN_GIT_CLEAN=" 👌🏽 "
+BULLETTRAIN_GIT_DIRTY=" 💩 "
+BULLETTRAIN_GIT_UNTRACKED="%F{red} ★ %F{black}"
+</code></pre></div></div>
 
   </div>
 

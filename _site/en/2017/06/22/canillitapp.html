@@ -6,12 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>hello_there</title>
-  <meta name="description" content="iOS Software Engineer living in Buenos Aires 🇦🇷.
-">
+  <title>Querying Canillitapp with a little of shell scripting</title>
+  <meta name="description" content="I recently discovered JQ and it worked perfect for me to query Canillitapp services.">
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://betzerra.github.io/about/">
+  <link rel="canonical" href="http://betzerra.github.io/en/2017/06/22/canillitapp.html">
   <link rel="alternate" type="application/rss+xml" title="Betzerra" href="http://betzerra.github.io/feed.xml">
 </head>
 
@@ -63,33 +62,70 @@
 
     <div class="page-content">
       <div class="wrapper">
-        <article class="post">
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title">hello_there</h1>
+    <h1 class="post-title" itemprop="name headline">Querying Canillitapp with a little of shell scripting</h1>
+    <p class="post-meta"><time datetime="2017-06-22T10:00:00-03:00" itemprop="datePublished">Jun 22, 2017</time></p>
   </header>
 
-  <div class="post-content">
-    <p style="text-align: center;"><img src="http://betzerra.github.io/assets/avatar.png" alt="botzerra_bot working" width="300px" /></p>
+  <div class="post-content" itemprop="articleBody">
+    <p>I recently discovered <a href="https://github.com/stedolan/jq">JQ</a> and it worked perfect for me to query <a href="https://github.com/Canillitapp/headlines-api">Canillitapp services</a>.</p>
 
-<p>I’m <em>Ezequiel Becerra</em>, an <strong>iOS Software Engineer</strong> living in <strong>Buenos Aires</strong>.</p>
+<p>Here are some examples:</p>
 
-<p>I currently work at <a href="https://theorem.co"><strong>Theorem</strong></a>. Previously <a href="http://www.pager.com"><strong>Pager</strong></a>, <a href="http://thelift.net"><strong>theLift</strong></a>, <a href="http://www.tinyco.com"><strong>TinyCo</strong></a> and other small companies.</p>
-
-<p>When I’m not coding at work, I’m working on a <a href="http://www.github.com/betzerra">personal project</a>, <a href="https://www.instagram.com/p/BE1UOmBSlM0/?taken-by=betzerra">playing videogames</a> or eating asado.</p>
-
-<p><strong>Open source featured projects</strong></p>
-<ul>
-  <li><a href="https://github.com/canillitapp/">Canillitapp</a></li>
-  <li><a href="https://github.com/betzerra/morty">Morty</a></li>
-</ul>
-
-<p><strong>Published apps</strong></p>
+<p><strong>search.sh</strong></p>
 
 <ul>
-  <li><a href="http://www.picanalyzer.com">PicAnalyzer for iOS</a></li>
-  <li><a href="https://itunes.apple.com/us/app/canillitapp/id1148447560?ls=1&amp;mt=8">Canillitapp for iOS</a></li>
+  <li>Makes a search (URL escaped) and shows last 20 examples.</li>
+  <li>Transforms UNIX timestamp into a legible date.</li>
 </ul>
+
+<noscript><pre>404: Not Found</pre></noscript>
+<script src="https://gist.github.com/betzerra/74f97e4b8693f725aed56b5f60d04038.js?file=search.sh"> </script>
+
+<p><code class="language-plaintext highlighter-rouge">sh search.sh calu%20rivero</code></p>
+
+<p style="text-align: center;"><img src="http://betzerra.github.io/assets/canillitapp_terminal_001.png" alt="terminal screenshot" width="700px" /></p>
+
+<p><strong>latest_news.sh</strong></p>
+
+<ul>
+  <li>Shows last 20 news.</li>
+  <li>Transforms UNIX timestamp into a legible date.</li>
+</ul>
+
+<noscript><pre>DATE=`date +%Y-%m-%d`
+curl https://api.canillitapp.com/latest/$DATE | jq &#39;.[0:20] | .[] | {title: .title, source: .source_name, url: .url, date : .date | strftime(&quot;%B %d %Y %I:%M%p %Z&quot;)}&#39;</pre></noscript>
+<script src="https://gist.github.com/betzerra/74f97e4b8693f725aed56b5f60d04038.js?file=latest_news.sh"> </script>
+
+<p><code class="language-plaintext highlighter-rouge">sh latest_news.sh</code></p>
+
+<p style="text-align: center;"><img src="http://betzerra.github.io/assets/canillitapp_terminal_002.png" alt="terminal screenshot" width="700px" /></p>
+
+<p><strong>trending_news.sh</strong></p>
+
+<ul>
+  <li>Shows trending topics for today.</li>
+  <li>Transforms UNIX timestamp into a legible date.</li>
+</ul>
+
+<noscript><pre>DATE=`date +%Y-%m-%d`
+curl https://api.canillitapp.com/trending/$DATE/7 | jq &#39;.news | to_entries[] | {&quot;key&quot;: .key, &quot;title&quot;: .value | .[0].title, &quot;url&quot;: .value | .[0].url}&#39;</pre></noscript>
+<script src="https://gist.github.com/betzerra/74f97e4b8693f725aed56b5f60d04038.js?file=trending_news.sh"> </script>
+
+<p style="text-align: center;"><img src="http://betzerra.github.io/assets/canillitapp_terminal_003.png" alt="terminal screenshot" width="700px" /></p>
+
+<p><strong>finally, alias the scripts in order to make your life easier</strong></p>
+<noscript><pre># optional, I added some of my scripts at the bottom of my ~/.zshrc
+# (I&#39;m using oh-my-zsh https://github.com/robbyrussell/oh-my-zsh)
+
+alias canillitapp_latest=&quot;~/Scripts/latest_news.sh&quot;
+alias canillitapp_popular=&quot;~/Scripts/popular_news.sh&quot;
+alias canillitapp_search=&quot;~/Scripts/search_news.sh&quot;
+alias canillitapp_trending=&quot;~/Scripts/trending_news.sh&quot;</pre></noscript>
+<script src="https://gist.github.com/betzerra/74f97e4b8693f725aed56b5f60d04038.js?file=.zshrc"> </script>
+
 
   </div>
 
