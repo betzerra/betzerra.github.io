@@ -12,23 +12,23 @@ BSc in Computer Science at Universidad CAECE (Buenos Aires, Argentina)
 - English: Fluent
 
 # Work Experience
-- __Dec 2018 - Present: [Citrusbyte](http://www.citrusbyte.com) iOS Developer__
+- __Dec 2018 - Present: [Theorem](http://www.theorem.co) iOS Software Engineer__
 
-- __Oct 2013 - Dec 2018: [Pager](http://www.pager.com) Lead iOS Developer / Founding Team Member__
+- __Oct 2013 - Dec 2018: [Pager](http://www.pager.com) Lead iOS Software Engineer / Founding Team Member__
 
   Working on the iOS client, currently published on the [App Store](https://itunes.apple.com/us/app/pager-personalized-healthcare/id864058356?mt=8).
 
   Also maintained the nodeJS backend on its early stage.
 
-- __Aug 2012 - Oct 2013: iOS Developer at [theLIFT](http://thelift.net)__
+- __Aug 2012 - Oct 2013: iOS Software Engineer at [theLIFT](http://thelift.net)__
 
   Developed and designed diverse projects for clients and prototypes for iOS and OSX too.
 
-- __Mar 2011 - Aug 2012: iOS Developer at [TinyCo](http://www.tinyco.com)__
+- __Mar 2011 - Aug 2012: iOS Software Engineer at [TinyCo](http://www.tinyco.com)__
 
   Developed new features for social games like: Tap Resort, Tiny Zoo and Tiny Zoo Friends. Some of them have reached #1 Top Grossing on the US App Store and were delivered to millions of users.
 
-- __Jun 2009 - Mar 2011: iOS Developer at Movisol__
+- __Jun 2009 - Mar 2011: iOS Software Engineer at Movisol__
 
   In less than a year and a half we have published, with a small group of developers, more than 50 applications. Many of them were in the top 25 (free) of many countries around the world. This was possible thanks to the development of an own framework and the use of agile methodologies.
 
