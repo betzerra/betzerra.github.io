@@ -5,7 +5,7 @@ date:   2016-04-26 23:39:50 -0300
 categories: en
 ---
 {:refdef: style="text-align: center;"}
-![botzerra_bot working]({{site.url}}/assets/telegram_bot.png){:width="300px"}
+![botzerra_bot working](https://nyc3.digitaloceanspaces.com/betzerra/blog/2016/04/27/telegram_bot.png){:width="300px"}
 {:refdef}
 
 I liked [Telegram](https://telegram.org) since day 1 but after they released

@@ -9,7 +9,7 @@ Anything is better than macOS' default terminal. The white background and the wa
 
 Mine looks like this.
 
-![terminal screenshot]({{site.url}}/assets/terminal_screenshot.png)
+![terminal screenshot](https://nyc3.digitaloceanspaces.com/betzerra/blog/2017/06/03/terminal_screenshot.png)
 
 It's pretty basic but it's got what I need:
 - it's easy to read
@@ -22,7 +22,7 @@ Here's what you need to know to setup yours:
 - [Install oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
 - [Install bullet-train theme](https://github.com/caiogondim/bullet-train.zsh)
 - On __iTerm2 preferences__, under Profile -> Terminal, disable _"Show mark indicators"_.
-- Use a custom palette, [here's mine]({{site.url}}/assets/betzerra.itermcolors).
+- Use a custom palette, [here's mine](https://nyc3.digitaloceanspaces.com/betzerra/blog/2017/06/03/betzerra.itermcolors).
 - Get a font, mine is [13pt Droid Sans Mono Dotted for Powerline](https://github.com/powerline/fonts/blob/master/DroidSansMonoDotted).
 - Customize oh-my-zsh theme by tweaking `~/.zshrc`. Here are some lines you might find relevant:
 

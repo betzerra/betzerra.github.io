@@ -5,7 +5,7 @@ permalink: /about/
 ---
 
 {:refdef: style="text-align: center;"}
-![botzerra_bot working]({{site.url}}/assets/avatar.png){:width="300px"}
+![botzerra_bot working](https://nyc3.digitaloceanspaces.com/betzerra/blog/pages/about/avatar.png){:width="300px"}
 {:refdef}
 
 I'm _Ezequiel Becerra_, an __iOS Software Engineer__ living in __Buenos Aires__.

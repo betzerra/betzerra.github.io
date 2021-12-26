@@ -19,7 +19,7 @@ Here are some examples:
 `sh search.sh calu%20rivero`
 
 {:refdef: style="text-align: center;"}
-![terminal screenshot]({{site.url}}/assets/canillitapp_terminal_001.png){:width="700px"}
+![terminal screenshot](https://nyc3.digitaloceanspaces.com/betzerra/blog/2017/06/22/canillitapp_terminal_001.png){:width="700px"}
 {:refdef}
 
 **latest_news.sh**
@@ -32,7 +32,7 @@ Here are some examples:
 `sh latest_news.sh`
 
 {:refdef: style="text-align: center;"}
-![terminal screenshot]({{site.url}}/assets/canillitapp_terminal_002.png){:width="700px"}
+![terminal screenshot](https://nyc3.digitaloceanspaces.com/betzerra/blog/2017/06/22/canillitapp_terminal_002.png){:width="700px"}
 {:refdef}
 
 **trending_news.sh**
@@ -42,7 +42,7 @@ Here are some examples:
 
 {% gist betzerra/74f97e4b8693f725aed56b5f60d04038 trending_news.sh %}
 {:refdef: style="text-align: center;"}
-![terminal screenshot]({{site.url}}/assets/canillitapp_terminal_003.png){:width="700px"}
+![terminal screenshot](https://nyc3.digitaloceanspaces.com/betzerra/blog/2017/06/22/canillitapp_terminal_003.png){:width="700px"}
 {:refdef}
 
 **finally, alias the scripts in order to make your life easier**
