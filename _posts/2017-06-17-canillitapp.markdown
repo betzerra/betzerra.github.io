@@ -30,7 +30,7 @@ So I extracted the code from the bot and I made a [news API](https://github.com/
 After that, I created an [Apple Watch client](https://twitter.com/betzerra/status/768816272192733184), and many months later it became a whole [iOS app](https://itunes.apple.com/us/app/canillitapp/id1148447560?ls=1&mt=8).
 
 {:refdef: style="text-align: center;"}
-![terminal screenshot]({{site.url}}/assets/canillitapp_screenshot.png){:width="300px"}
+![terminal screenshot](https://nyc3.digitaloceanspaces.com/betzerra/blog/2017/06/17/canillitapp_screenshot.png){:width="300px"}
 {:refdef}
 
 My conclussion is that there's no better platform than other. As many things in life, there's always a trade off. If possible, try to think your app as a service and how could you adapt it on different use cases such as mobile apps, widgets, smartwatch apps, tv apps, bots, webapps and so on.

@@ -25,7 +25,7 @@ Well, [the website has a great explanation](https://danger.systems/ruby/) but th
 
 > it’s a script that runs on the CI phase and it will send messages on your pull request depending on some rules you wrote on the [Dangerfile](https://github.com/Canillitapp/headlines-iOS/blob/master/Dangerfile)
 
-![Danger bot working]({{site.url}}/assets/danger_demo.png)
+![Danger bot working](https://nyc3.digitaloceanspaces.com/betzerra/blog/2018/11/03/danger_demo.png)
 
 Still confused? Here are some examples:
 
