@@ -3,7 +3,6 @@ layout: post
 title: "Automating chores with Danger"
 date: 2018-11-03 19:06:00 -0300
 categories: en
-image: https://nyc3.digitaloceanspaces.com/betzerra/blog/misc/betzerra_post_generic.png
 ---
 
 It's been a while I've been thinking about writing about [Fastlane](https://fastlane.tools) and [Danger](https://danger.systems).

@@ -3,7 +3,6 @@ layout: post
 title: "My everyday news on a Telegram bot 🤖"
 date: 2016-04-26 23:39:50 -0300
 categories: en
-image: https://nyc3.digitaloceanspaces.com/betzerra/blog/misc/betzerra_post_generic.png
 ---
 {:refdef: style="text-align: center;"}
 ![botzerra_bot working](https://nyc3.digitaloceanspaces.com/betzerra/blog/2016/04/27/telegram_bot.png){:width="300px"}
