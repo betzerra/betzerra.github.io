@@ -1,0 +1,73 @@
+#-------------------------------
+# Site Settings
+title: Betzerra
+logo: # You can add own logo. For example '/images/logo.png'.
+description: iOS Software Engineer living in Buenos Aires 🇦🇷.
+color_scheme: auto # You can choose three modes auto, light, and dark. By default, the auto mode is set, which means the user can choose the light or dark mode themself.
+
+
+#-------------------------------
+# Navigation Settings
+menu__settings:
+  menu__items:
+    - title: 'Home'
+      url: '/'
+    - title: 'Projects'
+      url: '/projects/'
+    - title: 'Blog'
+      submenu:
+      - url: /blog-en/
+        title: English
+      - url: /blog-es/
+        title: Español
+      - url: /blog/
+        title: All Posts
+    - title: 'Pages'
+      submenu:
+      - url: '/about/'
+        title: 'About'
+      - url: '/resume/'
+        title: 'Résumé'
+
+#-------------------------------
+# Author Settings
+author:
+  author__name: Ezequiel Becerra
+  author__bio: iOS Software Engineer living in Buenos Aires 🇦🇷.
+  author__avatar: https://nyc3.digitaloceanspaces.com/betzerra/blog/misc/avatar_03_m.jpg
+
+social:
+- {icon: "ion-logo-twitter", link: "https://twitter.com/betzerra"}
+- {icon: "ion-logo-instagram", link: "https://instagram.com/betzerra"}
+- {icon: "ion-logo-github", link: "https://github.com/betzerra"}
+
+#-------------------------------
+# Projects Settings
+projects__settings:
+  projects__title: Latest works
+  projects__description:
+
+#-------------------------------
+# Blog Section
+blog__settings:
+  blog__title: Recent Posts
+  blog__description:
+
+#-------------------------------
+# Footer Navigation Settings
+footer_menu__settings:
+  menu__items:
+    - title: 'Home'
+      url: '/'
+    - title: 'Projects'
+      url: '/projects/'
+    - title: 'Blog'
+      url: '/blog/'
+    - url: '/about/'
+      title: 'About'
+    - url: '/resume/'
+      title: 'Résumé'
+
+#-------------------------------
+# Google Analytics
+google-analytics: # Add your GA Tracking Id
