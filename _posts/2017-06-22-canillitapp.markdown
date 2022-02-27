@@ -1,8 +1,9 @@
 ---
 layout: post
-title:  "Querying Canillitapp with a little of shell scripting"
-date:   2017-06-22 10:00:00 -0300
+title: "Querying Canillitapp with a little of shell scripting"
+date: 2017-06-22 10:00:00 -0300
 categories: en
+image: https://nyc3.digitaloceanspaces.com/betzerra/blog/misc/betzerra_post_generic.png
 ---
 
 I recently discovered [JQ](https://github.com/stedolan/jq) and it worked perfect for me to query [Canillitapp services](https://github.com/Canillitapp/headlines-api).

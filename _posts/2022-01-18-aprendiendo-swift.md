@@ -1,8 +1,9 @@
 ---
 layout: post
-title: Aprendiendo Swift
+title: Dónde aprender Swift
 date: 2022-01-18 12:54 -0300
 categories: es
+image: https://nyc3.digitaloceanspaces.com/betzerra/blog/misc/betzerra_post_swift.png
 ---
 
 A continuación, una lista de recursos que son muy útiles a la hora de arrancar a programar con Swift:

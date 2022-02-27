@@ -3,6 +3,7 @@ layout: post
 title:  "\"Marque uno para español\""
 date:   2019-03-10 15:20:00 -0300
 categories: es
+image: https://nyc3.digitaloceanspaces.com/betzerra/blog/misc/betzerra_post_generic.png
 ---
 
 Hace rato que quería escribir algunos posts en castellano.

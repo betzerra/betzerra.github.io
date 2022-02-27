@@ -3,6 +3,7 @@ layout: post
 title: Obtener información de tu computadora usando la consola (macOS)
 date: 2021-12-26 14:43 -0300
 categories: es
+image: https://nyc3.digitaloceanspaces.com/betzerra/blog/misc/betzerra_post_generic.png
 ---
 
 Cuando estás pensando en vender tu laptop, o comprás una nueva, alguien suele preguntar sobre los _specs_ de tu máquina; o quizás estás haciendo ssh a un servidor y no tenés idea qué equipo es.
