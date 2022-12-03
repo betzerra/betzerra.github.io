@@ -55,6 +55,8 @@ git push betzerra main:master
 ![Our app is deployed](https://nyc3.digitaloceanspaces.com/betzerra/blog/2022/12/dokku-01.png)
 
 ### ... and we're done, right?
+![The website is working, righ?](https://nyc3.digitaloceanspaces.com/betzerra/blog/2022/12/dokku-meme.jpg)
+
 Well, no.
 
 We've deployed the app but with no **https** support. This would've been _just fine_ in 2010 but now there're many browsers that won't open "unsecured" websites by default.
@@ -95,7 +97,7 @@ ssh dokku@[REDACTED] proxy:ports hellovapor
 
 ![How ports should be setup](https://nyc3.digitaloceanspaces.com/betzerra/blog/2022/12/dokku-03.png)
 
-Use **proxy:ports-remove** command to set the ports properly.
+Use **proxy:ports-remove** and **proxy:ports-add** command to set the ports properly.
 For example:
 ```
 // Remove the wrong port
