@@ -26,18 +26,24 @@ Hopefully, deploying Vapor apps with Dokku will get more straightforward in the 
 
 ## 2. Create a new project and run it locally
 1. Create a new vapor project using the [CLI tool](https://docs.vapor.codes/install/macos/#install-toolbox).
-`vapor new HelloVapor`
+```
+vapor new HelloVapor
+```
 
 We don't need **Fluent** (databases) but we want to install **Leaf** (templates).
 
 2. Run the project on our machine.
 
-3. Make sure it works\
-`curl http://127.0.0.1:8080/hello`
+3. Make sure it works
+```
+curl http://127.0.0.1:8080/hello
+```
 
 ## 3. Deploy to Dokku
 1. Create a new Dokku app
-`ssh dokku@[REDACTED] apps:create hellovapor`
+```
+ssh dokku@[REDACTED] apps:create hellovapor
+```
 
 2. Create a new local git repository and push to Dokku
 ```
@@ -45,6 +51,8 @@ git init
 git remote add betzerra dokku@[REDACTED]:hellovapor
 git push betzerra main:master
 ```
+
+![Our app is deployed](https://nyc3.digitaloceanspaces.com/betzerra/blog/2022/12/dokku-01.png)
 
 ### ... and we're done, right?
 Well, no.
@@ -59,7 +67,9 @@ ssh dokku@[REDACTED] config:set --no-restart hellovapor DOKKU_LETSENCRYPT_EMAIL=
 ```
 
 2. Get a letsencrypt certificate for our project
-`ssh dokku@[REDACTED] letsencrypt:enable hellovapor`
+```
+ssh dokku@[REDACTED] letsencrypt:enable hellovapor
+```
 
 If you're using the versions I defined above you'll get an error.
 
@@ -69,6 +79,8 @@ If you're using the versions I defined above you'll get an error.
 [REDACTED] acme: error: 403 :: urn:ietf:params:acme:error:unauthorized :: [REDACTED]: Invalid response from [REDACTED]:443/.well-known/acme-challenge/3e9u9oJnT9r1Do83dtiCOWvk4BSDFgyONlfbK7nNZvc: 404
 ```
 
+![*Cries in DevOps*](https://nyc3.digitaloceanspaces.com/betzerra/blog/2022/12/dokku-02.png)
+
 I got stuck with this error for more than a week.
 Reported this [here](https://github.com/dokku/dokku-letsencrypt/issues/285) and [here](https://github.com/vapor/vapor/issues/2911) but had no luck.
 
@@ -77,7 +89,11 @@ This piece of information in the [README](https://github.com/dokku/dokku-letsenc
 > For Dockerfile deploys, by default, dokku will determine which ports a container exposes and proxies all those exposed ports in the Docker container by listening on the same port numbers on the host. This means that both the proxies for HTTP port 80 and HTTPS port 443 to the app's container need to be manually configured.
 
 This is how it should look like when you write:
-`ssh dokku@[REDACTED] proxy:ports hellovapor`
+```
+ssh dokku@[REDACTED] proxy:ports hellovapor
+```
+
+![How ports should be setup](https://nyc3.digitaloceanspaces.com/betzerra/blog/2022/12/dokku-03.png)
 
 Use **proxy:ports-remove** command to set the ports properly.
 For example:
@@ -91,14 +107,18 @@ ssh dokku@[REDACTED] proxy:ports-add hellovapor https:443:8080
 ```
 
 Now re-run **letsencrypt** command:
-`ssh dokku@[REDACTED] letsencrypt:enable hellovapor`
+```
+ssh dokku@[REDACTED] letsencrypt:enable hellovapor
+```
 
 This time should run fine 🙌
+
+![Checking if our new website is working](https://nyc3.digitaloceanspaces.com/betzerra/blog/2022/12/dokku-04.png)
 
 ## 4. Herokuish Buildpack (Optional)
 If you're getting an outdated Swift, you could try Heroku's buildpack:
 
-Create a file called `.buildpack` with the following content:
+Create a file called **.buildpack** with the following content:
 ```
 https://github.com/vapor/heroku-buildpack
 ```
