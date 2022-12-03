@@ -128,8 +128,8 @@ https://github.com/vapor/heroku-buildpack
 ## Summary
 Compared with Sinatra, deploying a simple website took me more energy and time. On the other hand, Swift and Vapor are quite new yet and there's a long way to go.
 
-Ruby was created in 1995, Rails in 2004. Of course they will have a bigger community, ubiquitous documentation and better support.
+Ruby was created in 1995, Rails in 2004. Of course they will have a bigger community, ubiquitous documentation and better support. Picking the right framework is as important as picking the right language. 
 
-Picking the right framework is as important as picking the right language. I was able to deploy my first simple service (it's a few lines of code and uses Redis) in Vapor last month. I'm feeling positive that this will get better and better.
+That being said, I was able to deploy my first simple service (it's a few lines of code and uses Redis) in Vapor last month, so I'm feeling positive that this will get better and better.
 
-Time will tell.
+Time will tell! 🤞
