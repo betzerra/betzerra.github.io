@@ -3,7 +3,6 @@ layout: post
 title: Getting your computer specs with the console (macOS)
 date: 2021-12-26 14:43 -0300
 categories: en
-image: https://nyc3.digitaloceanspaces.com/betzerra/blog/misc/betzerra_post_terminal.png
 ---
 
 Either when you're looking to sell your old laptop or bought a new one, someone asks about the specs of your machine; or maybe you're ssh-ing a server and you have no clue what machine it is.
