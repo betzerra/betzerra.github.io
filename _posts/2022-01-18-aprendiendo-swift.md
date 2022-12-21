@@ -21,3 +21,4 @@ A continuación, una lista de recursos que son muy útiles a la hora de arrancar
 - [Hacking with Swift](https://www.hackingwithswift.com)
 - [Yet Another Swift Blog](https://www.vadimbulavin.com)
 - [Swift by Sundell](https://swiftbysundell.com)
+- [Andy Ibanez](https://www.andyibanez.com)
