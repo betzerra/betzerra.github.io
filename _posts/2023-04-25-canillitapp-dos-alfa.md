@@ -4,6 +4,7 @@ title: CanillitappDos v0.0 (alpha)
 date: 2023-04-25 20:44 -0300
 categories: es
 image: https://nyc3.digitaloceanspaces.com/betzerra/blog/2023/04/canillitapp-dos-alfa.png
+tags: [canillitapp]
 ---
 
 Este proyecto tiene menos de un mes de antigüedad y es mi primer intento con **SwiftUI**.
