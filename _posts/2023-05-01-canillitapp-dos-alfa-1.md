@@ -1,6 +1,6 @@
 ---
 layout: post
-title: CanillitappDos v0.1 (alpha)
+title: CanillitappDos v0.1 (alpha) - Core Data
 date: 2023-05-01 14:20 -0300
 categories: es
 image: https://nyc3.digitaloceanspaces.com/betzerra/blog/2023/04/canillitapp-dos-alfa.png
