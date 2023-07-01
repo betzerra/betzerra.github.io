@@ -17,7 +17,9 @@ A continuación, una lista de recursos que son muy útiles a la hora de arrancar
 - [Talks&Coffee](https://apps.apple.com/es/app/talks-coffee/id1466240063)
 
 # Autores
-- [raywenderlich.com](https://www.raywenderlich.com)
+- [kodeco.com](https://www.kodeco.com) (ex Ray Wenderlich)
 - [Hacking with Swift](https://www.hackingwithswift.com)
 - [Yet Another Swift Blog](https://www.vadimbulavin.com)
 - [Swift by Sundell](https://swiftbysundell.com)
+- [Andy Ibanez](https://www.andyibanez.com)
+- [iOS Dev Weekly](https://iosdevweekly.com)
