@@ -41,6 +41,8 @@ social:
 - {icon: "ion-logo-instagram", link: "https://instagram.com/betzerra"}
 - {icon: "ion-logo-github", link: "https://github.com/betzerra"}
 - {icon: "ion-ios-at", link: "https://mastodon.social/@betzerra"}
+- {icon: "ion-logo-game-controller-b", link: "https://discord.gg/8DHePswBmz"}
+- {icon: "ion-md-link", link: "https://t.me/+hPmhF9Spy7phNmZh"}
 
 #-------------------------------
 # Projects Settings
@@ -68,6 +70,8 @@ footer_menu__settings:
       title: 'About'
     - url: '/resume/'
       title: 'Résumé'
+    - url: 'feed.xml'
+      title: 'RSS'
 
 #-------------------------------
 # Google Analytics
