@@ -37,12 +37,12 @@ author:
   author__avatar: https://nyc3.digitaloceanspaces.com/betzerra/blog/misc/avatar_03_m.jpg
 
 social:
-- {icon: "ion-logo-twitter", link: "https://twitter.com/betzerra"}
-- {icon: "ion-logo-instagram", link: "https://instagram.com/betzerra"}
-- {icon: "ion-logo-github", link: "https://github.com/betzerra"}
-- {icon: "ion-ios-at", link: "https://mastodon.social/@betzerra"}
-- {icon: "ion-logo-game-controller-b", link: "https://discord.gg/8DHePswBmz"}
-- {icon: "ion-md-link", link: "https://t.me/+hPmhF9Spy7phNmZh"}
+- {icon: "logo-twitter", link: "https://twitter.com/betzerra"}
+- {icon: "logo-instagram", link: "https://instagram.com/betzerra"}
+- {icon: "logo-github", link: "https://github.com/betzerra"}
+- {icon: "logo-mastodon", link: "https://mastodon.social/@betzerra"}
+- {icon: "logo-discord", link: "https://discord.gg/8DHePswBmz"}
+- {icon: "chatbubble-outline", link: "https://t.me/+hPmhF9Spy7phNmZh"}
 
 #-------------------------------
 # Projects Settings

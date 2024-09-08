@@ -7,7 +7,7 @@
     align-items: center;
     flex-wrap: wrap;
     padding: 60px $base-spacing-unit;
-  
+
     @media only screen and (max-width: $desktop) {
       padding: 40px $base-spacing-unit;
     }
@@ -159,12 +159,12 @@
     cursor: pointer;
 
     &:hover {
-      .ion-md-close {
+      .close {
         transform: rotate(90deg);
       }
     }
 
-    .ion-md-close {
+    .close {
       transition: $global-transition;
     }
   }
@@ -408,7 +408,7 @@
   user-select: none;
   cursor: pointer;
   background: var(--background-alt-color);
-  
+
   &.theme-light {
     transform: none;
     cursor: auto;
