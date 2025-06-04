@@ -1,6 +1,6 @@
 ---
 layout: post
-title: CanillitappDos v0.3 (alpha) - CoreML
+title: "CanillitappDos - Parte 4: CoreML"
 date: 2023-05-14 13:21 -0300
 categories: es
 image: https://nyc3.digitaloceanspaces.com/betzerra/blog/2023/05/14/canillitapp_0_3.png

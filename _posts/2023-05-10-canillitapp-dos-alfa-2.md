@@ -1,6 +1,6 @@
 ---
 layout: post
-title: CanillitappDos v0.2 (alpha) - Filter
+title: "CanillitappDos - Parte 3: Filter"
 date: 2023-05-10 23:15 -0300
 categories: es
 image: https://nyc3.digitaloceanspaces.com/betzerra/blog/2023/05/10/canillitapp_0_2.png
