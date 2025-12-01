@@ -7,12 +7,12 @@ image: https://nyc3.digitaloceanspaces.com/betzerra/blog/2025/11/30/coffee_notes
 tags: [coffee-notes, swift]
 ---
 
-Ya pasó alrededor de un año desde que les comenté sobre mi sideproject [Coffee Notes](https://www.betzerra.com/project/coffee-notes) y se me ocurrió que era un buen momento para hacer un repaso de todos los cambios que hubo en el 2025. ¡Allá vamos!
+Ya pasó alrededor de un año desde que les comenté sobre mi sideproject [Coffee Notes](https://www.betzerra.com/project/coffee-notes) y se me ocurrió que era un buen momento para hacer un repaso de todos los cambios que hubo en el 2025. Allá vamos.
 
-# Community Tab
-Posiblemente el cambio más obvio y el que demandó la mayor cantidad de esfuerzo haya sido la sección de "Comunidad": una pantalla con un carrousel de mapas de distintas ciudades con puntos que indican dónde los usuarios estuvieron tomando café junto con métricas y un leaderboard de usuarios que más colaboraron en la app.
+# Sección de Comunidad
+Posiblemente la parte que más me demandó esfuerzo haya sido la sección de "Comunidad": una pantalla con un carrousel de mapas de distintas ciudades con puntos que indican dónde los usuarios estuvieron tomando café, junto con algunas métricas derivadas de la app.
 
-Me gusta la idea de los check-ins pero todavía estoy buscándole la vuelta. Fueron furor en FourSquare hace 10 años pero ahora no tanto. En parte porque no hay incentivos para hacerlo.
+Me gusta la idea de hacer check-ins en cafeterías porque me permite ver qué tanto movimiento tiene la app y entender qué lugares para tomar café son los más populares. Lamentablemente, no enganchó mucho este concepto. ¡Pensar que esa idea fue FUROR en FourSquare hace 10 años! Por un lado me parece que pasó de moda pero también creo que fallé en generar un verdadero incentivo al usuario.
 
 <div class="gallery-box">
   <div class="gallery">
@@ -23,7 +23,7 @@ Me gusta la idea de los check-ins pero todavía estoy buscándole la vuelta. Fue
   <em>Pantallas de Community, Profile y Leaderboard.</em>
 </div>
 
-Se me ocurrió gamificar la experiencia poniendo un mapa comunitario donde se vean todos los check-ins (de forma anónima) y armar un leaderboard pero me parece que quedó a mitad de camino. Más allá de aparecer en un ranking, no había premio: los puntos no se canjean por premios, tampoco hay stickers ni badges que se desbloqueen, ni siquiera puse hay un sonido de trompetas con una animación de confetti después de un check-in. ¿Los resultados? solamente 8 usuarios usaron este feature.
+Armé un leaderboard para gamificar la experiencia: los usuarios que hacen check-in o recomiendan cafeterías a la base de datos ganan puntos. El problema es que me quedé a mitad de camino: los puntos no se canjean por NADA más que "fama y gloria", tampoco hay stickers ni badges que se desbloqueen, ni siquiera hay un sonido de trompetas con una animación de confetti cada vez que hacés check-in. Es un flow que necesita apremiar al usuario de alguna manera y no lo hace.
 
 Por otra parte están las métricas:
 - ¿Qué ciudad obtiene más check-ins?
@@ -57,12 +57,14 @@ Bug fixes, cambios sutiles en la UI/UX, cambios en el server, son cosas que pasa
 Los resultados fueron... mediocres. 344 descargas en un año. Durante algunos meses pagué publicidad en el AppStore de Apple, eso disparó mis números de impresiones y Page Views que subieron un poco las descargas pero no tanto como para justificar el gasto.
 
 # Aprendizajes
-No recomiendo hacer apps que dependen del volumen de usuarios. La idea que los usuarios suban data de cafeterías y hagan check-in voluntariamente de ✨ **PUNTITOS** ✨ en 2025 para una app indie... es casi delirante.
+Por un lado, no recomiendo hacer apps que dependen del volumen de usuarios. La idea que los usuarios suban data de cafeterías y hagan check-in voluntariamente a cambio de ✨ **PUNTITOS** ✨ en 2025 para una app indie... es casi delirante.
 
-Para mi próximo proyecto tendría un scope más chico todavía, Coffee Notes es 2 apps en una: directorio de cafeterías y una app para tomar notas de café. Esa dualidad a veces me juega en contra porque me es difícil explicar el producto y a veces pierdo foco en dónde poner energía.
+Por otro, sugiero que elijan un scope MUY chico y no salgan de ahí. Coffee Notes es 2 apps en una: directorio de cafeterías y una app para tomar notas de café. Esa dualidad a veces me juega en contra porque me es difícil explicar el producto y a veces pierdo foco muy facilmente.
 
 # 2026
-Si bien soné algo negativo en los puntos anteriores, no tengo dudas que voy a seguir trabajando en Coffee Notes el año que viene: tengo un roadmap ENTERO de cosas que quiero hacer. Hacer esta app me llena de satisfacción como programador porque puedo mostrarle al resto mis skills y también puedo practicarlos. Y por otra parte es la app que me gustaría tener como fanático del café, espero que lo sea para ustedes también.
+Creo que vengo sonando muy negativo así que voy a aclarar algo: voy a seguir trabajando en Coffee Notes el año que viene, tengo un roadmap ENTERO de cosas que quiero hacer.
+
+Hacer esta app me llena de satisfacción como programador porque puedo mostrarle al mundo mis skills. También me sirve para practicar y probar frameworks que en mi trabajo habitual no tengo oportunidad. Por otra parte es la app que me gustaría tener como fanático del café y espero que lo sea para ustedes también <3
 
 # Links
 - [Swift Charts](https://developer.apple.com/documentation/Charts)
