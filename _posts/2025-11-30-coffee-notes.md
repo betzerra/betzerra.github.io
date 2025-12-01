@@ -23,9 +23,9 @@ Me gusta la idea de hacer check-ins en cafeterías porque me permite ver qué ta
   <em>Pantallas de Community, Profile y Leaderboard.</em>
 </div>
 
-Armé un leaderboard para gamificar la experiencia: los usuarios que hacen check-in o recomiendan cafeterías a la base de datos ganan puntos. El problema es que me quedé a mitad de camino: los puntos no se canjean por NADA más que "fama y gloria", tampoco hay stickers ni badges que se desbloqueen, ni siquiera hay un sonido de trompetas con una animación de confetti cada vez que hacés check-in. Es un flow que necesita apremiar al usuario de alguna manera y no lo hace.
+Armé un leaderboard para gamificar la experiencia: los usuarios que hacen check-in o recomiendan cafeterías ganan puntos. El problema es que me quedé a mitad de camino: los puntos no se canjean por NADA más que "fama y gloria", tampoco hay stickers ni badges que se desbloquean... ni siquiera hay un sonido de trompetas con una animación de confetti cada vez que hacés check-in. Es un flow que necesita apremiar al usuario de alguna manera y creo que no lo está haciendo bien.
 
-Por otra parte están las métricas:
+Por otra parte agregué métricas:
 - ¿Qué ciudad obtiene más check-ins?
 - ¿Qué cafetería obtiene más check-ins?
 - ¿Qué ciudad o país tiene más cafeterías registradas?
@@ -38,7 +38,7 @@ Por otra parte están las métricas:
   <em>Gráficos derivados de los datos agregados por los usuarios</em>
 </div>
 
-Eso también está público en Community Tab y fue una buena excusa para aprender [Swift Charts](https://developer.apple.com/documentation/Charts).
+Esto la verdad fue bastante fácil de hacer y una linda excusa para probar [Swift Charts](https://developer.apple.com/documentation/Charts).
 
 # Notes Tab
 Agregué la posibilidad de ordenar las notas por Rating. Una pavada pero me resultó muy útil después de 1 año de estar coleccionando apuntes sobre cafés.
@@ -54,10 +54,10 @@ Bug fixes, cambios sutiles en la UI/UX, cambios en el server, son cosas que pasa
   <em>Hacer una app es fácil. Hacer una app popular... esa es otra historia.</em>
 </div>
 
-Los resultados fueron... mediocres. 344 descargas en un año. Durante algunos meses pagué publicidad en el AppStore de Apple, eso disparó mis números de impresiones y Page Views que subieron un poco las descargas pero no tanto como para justificar el gasto.
+Los resultados fueron... mediocres. 344 descargas en un año. Durante algunos meses pagué publicidad en el AppStore de Apple, eso disparó mis números de impresiones y Page Views que impactaron un poco en las descargas pero no tanto como para justificar el gasto.
 
 # Aprendizajes
-Por un lado, no recomiendo hacer apps que dependen del volumen de usuarios. La idea que los usuarios suban data de cafeterías y hagan check-in voluntariamente a cambio de ✨ **PUNTITOS** ✨ en 2025 para una app indie... es casi delirante.
+Por un lado, no recomiendo hacer apps que dependan del volumen de usuarios. La idea que los usuarios suban data de cafeterías y hagan check-in voluntariamente a cambio de ✨ **PUNTITOS** ✨ en 2025 para una app indie... es casi delirante.
 
 Por otro, sugiero que elijan un scope MUY chico y no salgan de ahí. Coffee Notes es 2 apps en una: directorio de cafeterías y una app para tomar notas de café. Esa dualidad a veces me juega en contra porque me es difícil explicar el producto y a veces pierdo foco muy facilmente.
 
