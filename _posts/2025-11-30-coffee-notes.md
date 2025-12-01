@@ -7,10 +7,12 @@ image: https://nyc3.digitaloceanspaces.com/betzerra/blog/2025/11/30/coffee_notes
 tags: [coffee-notes, swift]
 ---
 
-Ya pasó alrededor de un año desde que les comenté sobre mi sideproject [Coffee Notes](https://www.betzerra.com/project/coffee-notes) y se me ocurrió que era un buen momento para hacer un repaso de todos los cambios que hubo en el 2025.
+Ya pasó alrededor de un año desde que les comenté sobre mi sideproject [Coffee Notes](https://www.betzerra.com/project/coffee-notes) y se me ocurrió que era un buen momento para hacer un repaso de todos los cambios que hubo en el 2025. ¡Allá vamos!
 
 # Community Tab
-Todavía estoy buscándole la vuelta a los check-ins. Fueron furor en FourSquare hace 10 años y son una buena métrica para entender qué cafeterías son las más populares pero ya nadie los usa. En parte porque no hay incentivos para hacerlo.
+Posiblemente el cambio más obvio y el que demandó la mayor cantidad de esfuerzo haya sido la sección de "Comunidad": una pantalla con un carrousel de mapas de distintas ciudades con puntos que indican dónde los usuarios estuvieron tomando café junto con métricas y un leaderboard de usuarios que más colaboraron en la app.
+
+Me gusta la idea de los check-ins pero todavía estoy buscándole la vuelta. Fueron furor en FourSquare hace 10 años pero ahora no tanto. En parte porque no hay incentivos para hacerlo.
 
 <div class="gallery-box">
   <div class="gallery">
