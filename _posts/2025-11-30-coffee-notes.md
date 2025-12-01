@@ -44,7 +44,12 @@ Esto la verdad fue bastante fácil de hacer y una linda excusa para probar [Swif
 Agregué la posibilidad de ordenar las notas por Rating. Una pavada pero me resultó muy útil después de 1 año de estar coleccionando apuntes sobre cafés.
 
 # Cambios invisibles
-Bug fixes, cambios sutiles en la UI/UX, cambios en el server, son cosas que pasan desapercibidas pero necesarias para pavimentar los cambios futuros y para que yo pueda dormir a la noche.
+- Bug fixes.
+- Adoptar Liquid Glass.
+- Cambios sutiles en la UI/UX.
+- Cambios en el server.
+
+Son cosas que pasan desapercibidas pero necesarias para pavimentar los cambios futuros y para que yo pueda dormir a la noche :-)
 
 # Métricas de uso en 2025
 <div class="gallery-box">
