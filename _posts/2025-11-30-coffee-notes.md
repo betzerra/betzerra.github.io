@@ -7,7 +7,7 @@ image: https://nyc3.digitaloceanspaces.com/betzerra/blog/2025/11/30/coffee_notes
 tags: [coffee-notes, swift]
 ---
 
-Ya pasó alrededor de un año desde que les comenté sobre mi sideproject [Coffee Notes](https://www.betzerra.com/project/coffee-notes) y se me ocurrió que era un buen momento para hacer un repaso de todos los cambios que hubo en el 2025. Allá vamos.
+Ya pasó alrededor de un año desde que les comenté sobre mi sideproject [Coffee Notes](https://apps.apple.com/ar/app/coffee-notes-by-fecapp/id6449650317?l=en-GB) y se me ocurrió que era un buen momento para hacer un repaso de todos los cambios que hubo en el 2025. Allá vamos.
 
 # Sección de Comunidad
 Posiblemente la parte que más me demandó esfuerzo haya sido la sección de "Comunidad": una pantalla con un carrousel de mapas de distintas ciudades con puntos que indican dónde los usuarios estuvieron tomando café, junto con algunas métricas derivadas de la app.
@@ -67,6 +67,8 @@ Creo que vengo sonando muy negativo así que voy a aclarar algo: voy a seguir tr
 Hacer esta app me llena de satisfacción como programador porque puedo mostrarle al mundo mis skills. También me sirve para practicar y probar frameworks que en mi trabajo habitual no tengo oportunidad. Por otra parte es la app que me gustaría tener como fanático del café y espero que lo sea para ustedes también <3
 
 # Links
+- [Project Post: Coffee Notes](https://www.betzerra.com/project/coffee-notes)
+- [AppStore: Coffee Notes](https://apps.apple.com/ar/app/coffee-notes-by-fecapp/id6449650317?l=en-GB)
 - [Swift Charts](https://developer.apple.com/documentation/Charts)
 - [Showcase:​ Learn how apps are integrating the new design and Liquid Glass | Meet with Apple
 ](https://www.youtube.com/watch?v=hyFIakdwi9Y)
